@@ -61,3 +61,5 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 300 }
 end
+
+Paperclip.options[:command_path] = "/usr/bin/"
